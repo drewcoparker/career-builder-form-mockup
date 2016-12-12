@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign Up</title>
+        <!-- jquery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- my javascript -->
+        <script type="text/javascript" src="scripts.js"></script>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
+        <!-- my css -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <nav class="navbar navbar-default main-header">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                    </a>
+                    <div class="career-brand">
+                        <a href="#">
+                            <img alt="Brand" src="https://www.careerbuilder.com/assets/consumer_layouts/logo-eb9422713f74cd2ce626ee322e3af58d84e17f6ea2fa253abbee48639ff78ea5.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Form group -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 main-body">
+                    <div class="sign-up">
+                        <h1>Sign Up</h1>
+                        <p>Already have an account? <a href="#">Sign in here</a></p>
+                        <hr>
+                    </div>
+                    <div class="registration">
+                        <p>Registration for <a href="#">employer or staffing agency</a></p>
+                        <p><span>* </span>Required Fields</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name"><span>* </span>First Name</label>
+                            <input type="text" class="form-control first-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name"><span>* </span>Last Name</label>
+                            <input type="text" class="form-control last-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><span>* </span>Email address</label>
+                            <input type="text" class="form-control email-address">
+                        </div>
+                        <div class="form-group">
+                            <label for="zip-code"><span>* </span>Zip code</label>
+                            <input type="text" class="form-control zip-code">
+                        </div>
+                        <div class="form-group">
+                            <label for="zip-code"><span>* </span>Password</label>
+                            <input type="password" class="form-control password1">
+                        </div>
+                        <div class="form-group">
+                            <label for="zip-code"><span>* </span>Confirm password</label>
+                            <input type="password" class="form-control password2">
+                        </div>
+                        <hr>
+                        <div class="checkbox">
+                            <h4>Email Preferences</h4>
+                            <div class="checkbox1">
+                                <label class="">
+                                    <input type="checkbox" checked="checked"><span>Job Recommendations</span>
+                                    <p>Based on your activity</p>
+                                </label>
+                            </div>
+                            <div class="checkbox2">
+                                <label class="">
+                                    <input type="checkbox" checked="checked"><span>Resume and Application Activity Alerts</span>
+                                    <p>When your application is viewed</p>
+                                </label>
+
+                            </div>
+                        </div>
+                        <div class="submit-button">
+                            <button type="submit" class="btn btn-default">Sign up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+.career-brand {
+    height: 100%;
+    width: auto;
+    margin-left: 270px;
+    float: left;
+
+}
+
+.career-brand img {
+    margin: 10px;
+    height: 40px;
+    width: 210px;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.main-header {
+    background-color: #fff;
+    /*box-shadow: 0 1px 2px rgba(0,0,0,.1);*/
+    box-shadow: 0 1px 3px 0 rgba(152,146,146,0.5);
+    border-radius: 0px;
+}
+
+.main-body {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    max-width: 62.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+.registration {
+    margin-bottom: 25px;
+}
+
+.sign-up a, .registration a {
+    color: #09A0DB;
+}
+
+.registration span, .form-group span {
+    color: red;
+}
+
+.registration p:nth-child(1) {
+    margin-bottom: 0px;
+}
+
+.registration p:nth-child(2) {
+    font-style: italic;
+    color: #999999;
+}
+
+.submit-button {
+    margin-bottom: 25px;
+}
+
+.submit-button button {
+    background-color: #85CE3F;
+    border: 0.125rem solid #85CE3F;
+    font-weight: bold;
+    color: #ffffff;
+    width: 60%;
+    line-height: 2.25rem;
+    font-size: 2rem;
+}
+
+.checkbox h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.checkbox1 {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-bottom: 40px;
+}
+
+.checkbox1 span {
+    font-weight: bold;
+}
+
+.checkbox2 span {
+    font-weight: bold;
+}
