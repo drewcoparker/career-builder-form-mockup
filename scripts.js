@@ -11,7 +11,7 @@ $(document).ready(function() {
             var errorClass = '.' + currentTagId + '-error';
             console.log(errorClass);
             if ($(this).val() === '') {
-                $(errorClass).html("Field cannot be empty.");
+                $(errorClass).html("This field is required.");
                 $(errorClass).show();
             } else {
                 $(errorClass).hide();

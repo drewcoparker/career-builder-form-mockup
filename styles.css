@@ -92,3 +92,9 @@ body {
 .checkbox2 span {
     font-weight: bold;
 }
+
+.error{
+	color: red;
+    font-style: italic;
+    font-size: 12px;
+}
